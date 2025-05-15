@@ -1,6 +1,6 @@
 
 >[!question]
->GQ1. GQ를 쓰세요
+>GQ1. 프로토콜 지향 프로그래밍은 무엇일까?
 >GQ2. GQ를 쓰세요
 
 ## Description
