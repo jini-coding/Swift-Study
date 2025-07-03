@@ -35,7 +35,7 @@ Swift도 C언어와 마찬가지로 random 함수의 내부는 난수 생성기�
 하지만, Swift에서 제공하는 random 함수는 내부적으로 seed값을 자동으로 설정해주는 매커니즘이 있어서 일반적으로 항상 같은 값이 나오지 않는다. 사용자가 seed값을 직접 지정할 수도 없다.
 
 
-만약, Swift에서도 seed값을 설정하여 나오는 난수값을 통제하고 싶다면 GameplayKit의 GKMersenneTwisterRandomSource를 사용할 수 있다.
+만약, Swift에서도 seed값을 설정하여 나오는 난수값을 통제하고 싶다면 GameplayKit의 GKMersenneTwisterRandomSource나 GKARC4RandomSource를 사용할 수 있다.
 
 GameplayKit를 import 해야 사용할 수 있는건 다음과 같은 게임 개발과 관련한 특징들 때문이다. 
 - 특정한 결과를 디버깅, 테스트, 리플레이 하는 동안 특정 조건에서 항상 같은 결과가 나오도록 통제해야 함
